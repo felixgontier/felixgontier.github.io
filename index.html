@@ -8,18 +8,18 @@
   </head>
 
   <body>
-    <div ng-controller="PageController">
+    <div>
       <div id="top">
       	<div style="width: auto; text-align: left; display: inline-block">
 	    <span style="position:relative">
 	      <div style="position:absolute; left:-190px; top: -5px">
-		<img src="images/photo.png" style="width: 140px"/>
+		<img src="images/photo.png" style="width: 140px;border: 6px solid black"/>
 	      </div>
-	      <h2 style="font-size: 24px; margin-bottom: 10px">
-		Felix Gontier
+	      <h2 style="font-size: 36px; margin-bottom: 20px">
+		Félix Gontier
 	      </h2>
 	    </span>
-	    <div style="font-size: 12px; font-style: italic">PhD Student at <a href="https://sims.ls2n.fr/">SIMS team</a> <br> <a href="https://www.ls2n.fr/">LS2N</a>, <a href="http://www.ec-nantes.fr/">Ecole Centrale de Nantes</a><br>	  <span style="font-size: 12px; font-style: italic">felix.gontier@ls2n.fr</span> <br> <a href="https://github.com/felixgontier/">GitHub</a> </div>
+	    <div style="font-size: 16px; font-style: italic">PhD Student at <a href="https://sims.ls2n.fr/">SIMS team</a> <br> <a href="https://www.ls2n.fr/">LS2N</a>, <a href="http://www.ec-nantes.fr/">Ecole Centrale de Nantes</a><br>	  <span style="font-size: 16px; font-style: italic">felix __dot__ gontier __at__ ls2n __dot__ fr</span> <br> <a href="https://github.com/felixgontier/"><br>GitHub repositories</a><br> </div>
 
 	</div>
       </div>
@@ -27,13 +27,12 @@
       <div id="page">
 	<div style="text-align:center">
 	<div style="padding-top:45px">
-	<hr/>
 	</div>	</div>
-	
+
       </div>
     </div>
 	<br>
-	<div ng-repeat = "panel in panels">
+	<div>
 	<h1>Research topics</h1>
       <div class="panel">
 	<div class="panelInside">
@@ -49,18 +48,20 @@
 	<h1>Short bio</h1>
       <div class="panel">
 	<div class="panelInside">
-	2017-present <b>PhD student in Machine learning for audio</b>, <i>LS2N</i>, Nantes, France.<br>
-	2016-2017 <b>Master in Signal, Image, Integrated Systems and Automation (SISEA)</b>, <i>University of Rennes 1</i>, Rennes, France.<br>
-	2012-2017 <b>Engineering degree</b>, <i>ESEO</i>, Angers, France. Majored in Signal, Image, Audio and Telecommunications (SIAT).<br>
+    <table><tbody>
+	<tr><td>2017-present: </td><td> <b>PhD student in Machine learning for audio</b>, <i>LS2N</i>, Nantes, France.</td></tr>
+	<tr><td>2016-2017:</td> <td><b>Master in Signal, Image, Integrated Systems and Automation (SISEA)</b>, <i>University of Rennes 1</i>, Rennes, France.</td></tr>
+	<tr><td>2012-2017:</td><td> <b>Engineering degree</b>, <i>ESEO</i>, Angers, France. Majored in Signal, Image, Audio and Telecommunications (SIAT).</td></tr>
+</tbody></table>
 	</div>
       </div>
     </div>
 	<br>
-	
 
 
 
-    <div ng-repeat = "panel in panels">
+
+    <div>
 	<h1>Publications</h1>
       <div class="panel">
 	<div class="panelInside">
